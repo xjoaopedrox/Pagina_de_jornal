@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    border: solid;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.header > h3 {
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: -2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px
+}
+.header > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pt2 {
+    margin-left: 30px;
+}
+.pt3 {
+   display: flex;
+   font-size: small;
+   text-wrap: wrap;
+   min-height: fit-content;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.subpt3text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 344px;
+    min-width: 344px;
+    max-height: auto;
+    justify-content: space-between;
+}
+.subpt3 {
+    min-height: fit-content;
+    max-height: fit-content;
+}
+.not4, .not5, .not6, .not7, .not8 {
+    margin-left: 10px;
+    text-wrap: wrap;
+}
+.not4 {
+    width: 150px;
+    height: 340px;
+}
+.not5 {
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 150px;
+    height: 450px;
+}
+.not6 {
+    margin-top: -300px;
+    width: 150px;
+    height: 480px;
+}
+.not7 {
+    margin-top: -130px;
+    width: 150px;
+    height: 370px;
+}
+.not8 {
+    margin-top: -210px;
+    width: 150px;
+    height: 310px;
+}
+.subpt3 {
+    margin-left: 100px;
+}
+.charge > p{
+    margin-top: -30px;
+    font-size: x-small;
+}
