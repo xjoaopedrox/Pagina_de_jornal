@@ -1,32 +1,52 @@
-body {
-    margin: 0;
+@font-face{
+    font-family: titulo;
+    src:url(./BlackRunters.otf)
 }
-
-h1 {
-    border: solid;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    background-color: aquamarine;
-}
-
-.header > h3 {
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-top: -2px;
-}
-
+/* [] */
 .header {
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px
 }
-.header > p {
+.header > div {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
 }
-
+.header >div>ul{
+    list-style-type: armenian;
+}
+.header > div >h4{
+    display: flex;
+    justify-content: center;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.tit > h1 {
+    border-bottom: solid;
+    border-right: solid;
+    border-bottom-width: 2.5px;
+    border-right-width: 7.5px;
+    border-color: rgb(233, 138, 36);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 80px;
+    padding-right: 10px;
+    display: flow-root;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: titulo;
+}
+.tit > h3{
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: titulo;
+}
 .pt2 {
     margin-left: 30px;
 }
@@ -53,6 +73,7 @@ h1 {
 .not4, .not5, .not6, .not7, .not8 {
     margin-left: 10px;
     text-wrap: wrap;
+    font-size: 12px;
 }
 .not4 {
     width: 150px;

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+main{
+    background-color: #cbcbcb;
+    margin: 13px;
+    padding: 5px;
+}
+p{
+    font-family: 'Playfair Display',sans-serif;
+    text-indent: 20px;
+}
+h3, h4{
+    font-family: titulo;
+}
