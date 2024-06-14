@@ -48,60 +48,45 @@
     font-family: titulo;
 }
 .TragediaRS {
-    display: grid;
+    display:flow;
+    margin: 5px;
 }
-.TragediaRS > p{
-    justify-self: flex-end;
-    font-size: 12px;
+.TragediaRS-p{
+    display: flex;
+    justify-content: left;
 }
-.pt1 > center > p {
-    font-size: large;
+.TragediaRS-p>p{
+    margin: 7px;
+    width: 120px;
 }
-.pt1 > center > h1 {
-    font-size: xx-large;
+.leg{
+    font-size: 10px;
 }
 .pt1 {
-    margin-left: 35px;
-    margin-right: 100px;
-}
-.not1 > p {
-    margin-top: 50px;
-    font-size: large;
-    margin-left: 30px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-around;
 }
 .not1 {
-    display: flex;
+    display: flow;
 }
 .pt2 {
-    margin-left: 30px;
     display: flex;
+    justify-content: right;
 }
-.tnot2 {
-    width: 700px;
-    font-size: large;
-    
+.subpt20{
+    margin: 15px;
+    width: 350px;
 }
-.subpt21     {
-    margin-right: 100px;
-    font-size: large;
-}
-.tnot3 {
-    width: 500px;
-    margin-top: 150px;
-    margin-left: 50px;
+.subpt21{
+    width: 350px;
 }
 .not3 {
-    margin-left: 100px;
-    margin-right: 200px;
-    font-size: large;
+    padding: 10px;
 }
 .pt3 {
-   display: flex;
-   font-size: small;
    text-wrap: wrap;
    min-height: fit-content;
-   margin-left: 20px;
-   margin-right: 20px;
 }
 .subpt3text {
     display: flex;
@@ -116,39 +101,25 @@
     max-height: fit-content;
 }
 .not4, .not5, .not6, .not7, .not8 {
+    width: 150px;
     margin-left: 10px;
-    text-wrap: wrap;
-    font-size: 12px;
-}
-.not4 {
-    width: 150px;
-    height: 340px;
-}
-.not5 {
-    margin-left: 30px;
-    margin-top: 100px;
-    width: 150px;
-    height: 450px;
+    margin-right: 20px;
 }
 .not6 {
-    margin-top: -300px;
     width: 150px;
     height: 480px;
 }
 .not7 {
-    margin-top: -130px;
     width: 150px;
-    height: 370px;
 }
 .not8 {
-    margin-top: -210px;
     width: 150px;
     height: 310px;
 }
 .subpt3 {
-    margin-left: 100px;
+    margin-top: 10px;
 }
-.subpt31 {
+.subpt31{
     display: flex;
 }
 .linha6 {
@@ -156,18 +127,10 @@
     display: grid;
     text-wrap: wrap;
 }
-.text {
-    margin-left: 20px;
-    font-size: small;
-}
-.text > p {
-    font-size: 17px;
-}
 .charge {
     margin-left: 60px;
     margin-top: 70px;
 }
 .charge > p{
     margin-top: -30px;
-    font-size: x-small;
 }
