@@ -67,6 +67,20 @@
     padding-left: 10px;
     justify-content: space-around;
 }
+.pt1sub1 >h1{
+    font-size: 40px ;
+    margin-bottom: 0px;
+}
+.pt1 > div{
+    width: 700px;
+}
+.pt11{
+    padding: 10px;
+    width: 200px;
+}
+.subpt11{
+    width: 400px;
+}
 .not1 {
     display: flow;
 }
@@ -128,4 +142,142 @@
     display: flex;
     margin-left: 60px;
     margin-top: 70px;
+}
+.img,.img2{
+    height: 400px;
+}
+.img3{
+    height: 300px;
+}
+.img4{
+    height: 200px;
+}
+.lide{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background: radial-gradient(circle at 50% 50%, #d5b59c, #edc59f);
+    /* background-color: #d5b59c; */
+    margin: 13px;
+    padding: 5px;
+    width: 1000px;
+    justify-content: left;
+}
+p{
+    font-size: 16px;
+    font-family: 'Playfair Display',sans-serif;
+    text-indent: 20px;
+    margin: 0px;
+}
+/* [] */
+@media(max-width:430px){
+    body{
+        display: block;
+        justify-content: start;
+    }
+    main{
+        margin: 8px;
+        width: 54vw;
+    }
+    p{
+        font-size:10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    /*  */
+    .tit{
+        display: flex;
+        justify-content: center;
+    }
+    .tit > h1{
+        font-size: 35px;
+        border-bottom-width: 2.5px;
+        border-right-width: 2.5px;
+        border-color: rgb(233, 138, 36);
+    }
+    .header{
+        padding: 0px;
+        display: block;
+    }
+    .header > div{
+        width: 200px;
+    }
+    .header > div > ul> li{
+        font-size: 10px;
+    }
+    .pt1, .pt2, .pt3{
+        display: block;
+        justify-content: left;
+        width: 200px;
+        margin: 5px;
+        padding: 3px;
+    }
+    .pt2 > div, .pt3>div{
+        width: 200px;
+    }
+    .pt1 > div{
+        width: 200px;
+    }
+    .pt11{
+        padding-left: 5px;
+    }
+    .subpt11{
+        width: 150px;
+    }
+    .subpt11 >h1{
+        font-size: 10px;
+    }
+    .pt1sub1{
+        width: 200px;
+    }
+    .pt1sub1 >h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .img,.img4{
+        height: 100px;
+    }
+    .TragediaRS-p{
+        display: block;
+    }
+    .leg, .lide, .charge1 > p{
+        font-size: 8px;
+    }
+    .leg{
+        width: 200px;
+    }
+    .linha6{
+        display: block;
+        width: 200px;
+    }
+    .img2{
+        height: 250px;
+    }
+    .img3{
+        height: 130px;
+    }
+    .not8{
+        height: auto;
+    }
+    .charge{
+        margin-top: 15px;
+        margin: 10px;
+        display: block;
+        justify-content: center;
+    }
+    .charge1{
+        width: 150px;
+    }
 }
